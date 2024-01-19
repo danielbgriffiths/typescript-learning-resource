@@ -1,0 +1,25 @@
+{
+    "name": "typescript-learning-resource",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc --build",
+        "clean": "tsc --build --clean",
+        "start": "node './dist/index.js'",
+        "dev": "pnpm build && pnpm start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/danielbgriffiths/typescript-learning-resource.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/danielbgriffiths/typescript-learning-resource/issues"
+    },
+    "homepage": "https://github.com/danielbgriffiths/typescript-learning-resource#readme",
+    "devDependencies": {
+        "typescript": "^5.3.3"
+    }
+}
