@@ -3,29 +3,29 @@
  * Space Complexity: O(n)
  * Time Complexity: O(n)
  */
-export function reverseArray<T = any>(arr: Array<T>): Array<T> {
-    const nextArray: Array<T> = [];
+export function reverseArray<T = any>(arr: T[]): T[] {
+    const reversedArray: T[] = []
     for (let i = 0; i < arr.length; i++) {
-        nextArray.push(arr[arr.length - 1 - i]);
+        reversedArray.push(arr[arr.length - 1 - i])
     }
-    return nextArray;
+    return reversedArray
 }
 
 /**
  * Reverse array by splicing existing array, shifting elements
- * Space Complexity: O(n)
- * Time Complexity: O(1)
+ * Space Complexity: O(1)
+ * Time Complexity: O(n)
  */
-export function reverseArrayInPlace<T = any>(arr: Array<T>): Array<T> {
-    let currentIteration = 0;
-    const totalIterations = arr.length;
-    while (currentIteration < totalIterations) {
-        const itemToMove = arr.pop();
-        if (!itemToMove) break;
-        arr.splice(currentIteration, 0, itemToMove);
-        currentIteration++;
+export function reverseArrayInPlace<T = any>(arr: T[]): T[] {
+    let currentStep: number = 0
+    const maxSteps: number = arr.length
+    while (currentStep < maxSteps) {
+        const elToMove: T = arr.pop()
+        if (!elToMove) break
+        arr.splice(currentStep, 0, elToMove)
+        currentStep++
     }
-    return arr;
+    return arr
 }
 
-export const fns = [reverseArray, reverseArrayInPlace];
+export const fns = [reverseArray, reverseArrayInPlace]
