@@ -29,6 +29,11 @@ See [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Glob
     1.  Iterate through steps of the array and attempt to build a sub array that sums to target. If sub-array sums greater than target restart at incremented index.
 -   [Union / Intersection](./src/algorithms/union-intersection.ts)
     1.  Create set for union array. Push members the set already includes into intersection array.
+    [Bubble Sort of string array](./src/algorithms/string-array-bubble-sort.ts)
+    1.  Bubble Sort mutates an array in-place. 
+    2.  We start with two pointers and step through the array
+    3.  Compare adjacent values and if they are out of order depending on your sort direction, swap positions
+
 
 ---
 
