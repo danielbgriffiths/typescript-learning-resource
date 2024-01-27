@@ -23,16 +23,16 @@ list.pop() // [2]
 See [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) for more documentation on javascript arrays.
 
 -   [Reverse Array](./src/algorithms/reverse-array.ts)
-    1.  Create an array in memory and build the array by iterating over the original array and pushing the inverse index.
-    2.  Iterate over the original array, splicing elements into position, until the array is reversed.
+    1. Impl 1: Create an array in memory and build the array by iterating over the original array and pushing the inverse index.
+    2. Impl 2: Iterate over the original array, splicing elements into position, until the array is reversed.
 -   [Sub of Sub Array](./src/algorithms/sub-array-sum.ts)
-    1.  Iterate through steps of the array and attempt to build a sub array that sums to target. If sub-array sums greater than target restart at incremented index.
+    1. Impl 1: Iterate through steps of the array and attempt to build a sub array that sums to target. If sub-array sums greater than target restart at incremented index.
 -   [Union / Intersection](./src/algorithms/union-intersection.ts)
-    1.  Create set for union array. Push members the set already includes into intersection array.
-    [Bubble Sort of string array](./src/algorithms/string-array-bubble-sort.ts)
-    1.  Bubble Sort mutates an array in-place. 
-    2.  We start with two pointers and step through the array
-    3.  Compare adjacent values and if they are out of order depending on your sort direction, swap positions
+    1. Impl 1: Create set for union array. Push members the set already includes into intersection array.
+-   [Bubble Sort of string array](./src/algorithms/string-array-bubble-sort.ts)
+    1. Impl 1: Bubble Sort mutates an array in-place. Start with two pointers and step through the array. Compare adjacent values and if they are out of order depending on your sort direction, swap positions.
+-   [Sort array by frequency](./src/algorithms/sort-array-by-frequency.ts)
+    1. Impl 1: Using Bubble Sort, first sort array by direction. Then create map where Map<Value, NOccurrences> and sort map by occurrence. Finally return only the keys of the map.
 
 
 ---
