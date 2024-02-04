@@ -33,6 +33,8 @@ See [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Glob
     1. Impl 1: Bubble Sort mutates an array in-place. Start with two pointers and step through the array. Compare adjacent values and if they are out of order depending on your sort direction, swap positions.
 -   [Sort array by frequency](./src/algorithms/sort-array-by-frequency.ts)
     1. Impl 1: Using Bubble Sort, first sort array by direction. Then create map where Map<Value, NOccurrences> and sort map by occurrence. Finally return only the keys of the map.
+-   [Find Nearest Point that Includes X or Y Value](./src/algorithms/sort-array-by-frequency.ts)
+    1. See description on [Leetcode](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/description/)
 
 
 ---

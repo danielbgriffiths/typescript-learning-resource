@@ -54,24 +54,3 @@ export function sortArrayByFrequencyBubbleSort(
 
     return result
 }
-
-// Possible Optimization
-// let mapTemp!: number
-// const keys = Array.from(occurrenceMap.keys())
-// for (let i = 0; i < keys.length; i++) {
-//     for (let j = i + 1; j < keys.length; j++) {
-//         if (
-//             direction === 'desc'
-//                 ? occurrenceMap.get(keys[i])[1] >
-//                 occurrenceMap.get(keys[j])[1]
-//                 : occurrenceMap.get(keys[j])[1] >
-//                 occurrenceMap.get(keys[i])[1]
-//         )
-//             continue
-//         mapTemp = keys[j]
-//         keys[j] = keys[i]
-//         keys[i] = mapTemp
-//     }
-// }
-//
-// return keys
