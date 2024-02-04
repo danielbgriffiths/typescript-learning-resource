@@ -35,6 +35,14 @@ See [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Glob
     1. Impl 1: Using Bubble Sort, first sort array by direction. Then create map where Map<Value, NOccurrences> and sort map by occurrence. Finally return only the keys of the map.
 -   [Find Nearest Point that Includes X or Y Value](./src/algorithms/sort-array-by-frequency.ts)
     1. See description on [Leetcode](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/description/)
+-   [Count (Middle Child Values) Elements With Strictly Smaller and Greater Elements ](./src/algorithms/count-middle-child-values.ts)
+    1. See description on [Leetcode](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/description/)
+
+           Mental Model:
+           original = [3, 1, 5, 7, 3]
+           sorted = [1, 3, 3, 5, 7]
+           bounds (exclusive) = [sorted[0], sorted[1]]
+           isMiddleChild = sorted[i] > bounds[0] && sorted[i] < bounds[1]
 
 
 ---
