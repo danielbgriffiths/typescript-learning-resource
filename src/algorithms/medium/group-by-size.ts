@@ -11,10 +11,8 @@
  *      Each person should appear in exactly one group, and every person must be in a group. If there are multiple answers,
  * return any of them. It is guaranteed that there will be at least one valid solution for the given input.
  *
- * Time Complexity:
- * Space Complexity:
- * Mental Model:
- *      ...
+ * Time Complexity: O(n*log(n))
+ * Space Complexity: O(2n)
  */
 export function groupBySize(arr: number[]): number[][] {
     const groupMap: { [key: number]: number[][] } = {}
