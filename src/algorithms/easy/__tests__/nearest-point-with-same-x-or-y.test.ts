@@ -1,7 +1,7 @@
 import { nearestPointWithSameXOrY } from '../nearest-point-with-same-x-or-y'
 
 describe('nearestPointWithSameXOrY', () => {
-    it('should handle valid case', () => {
+    it('should handle valid case one', () => {
         const result = nearestPointWithSameXOrY(
             [
                 [1, 2],
@@ -17,7 +17,7 @@ describe('nearestPointWithSameXOrY', () => {
         expect(result).toBe(2)
     })
 
-    it('should handle valid case 2', () => {
+    it('should handle valid case two', () => {
         const result = nearestPointWithSameXOrY([[3, 4]], 3, 4)
         expect(result).toBe(0)
     })

@@ -6,7 +6,7 @@ describe('countMiddleChildValues', () => {
         expect(result).toBe(2)
     })
 
-    it('should handle valid case one', () => {
+    it('should handle valid case two', () => {
         const result = countMiddleChildValues([-3, 3, 3, 90])
         expect(result).toBe(2)
     })

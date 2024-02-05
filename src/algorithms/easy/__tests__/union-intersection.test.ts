@@ -1,7 +1,7 @@
 import { unionIntersection } from '../union-intersection'
 
-describe('Union Intersection', () => {
-    it('should find a valid unions and intersections', () => {
+describe('unionIntersection', () => {
+    it('should handle valid case', () => {
         const result = unionIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6, 7])
 
         expect(result).toStrictEqual([

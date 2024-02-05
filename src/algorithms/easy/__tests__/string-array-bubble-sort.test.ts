@@ -1,6 +1,6 @@
 import { stringArrayBubbleSort } from '../string-array-bubble-sort'
 
-describe('Bubble Sort on a string array', () => {
+describe('stringArrayBubbleSort', () => {
     const testArray = [
         'car',
         'limo',
@@ -19,22 +19,22 @@ describe('Bubble Sort on a string array', () => {
         'cow',
     ]
 
-    it('should sort a valid array of strings descending', () => {
+    it('should handle valid case descending', () => {
         const result = stringArrayBubbleSort(testArray, 'desc')
         expect(result).toStrictEqual(testArray.sort().reverse())
     })
 
-    it('should sort a valid array of strings ascending', () => {
+    it('should handle valid case ascending', () => {
         const result = stringArrayBubbleSort(testArray, 'asc')
         expect(result).toStrictEqual(testArray.sort())
     })
 
-    it('should sort by default in ascending direction', () => {
+    it('should handle valid case default direction', () => {
         const result = stringArrayBubbleSort(testArray)
         expect(result).toStrictEqual(testArray.sort())
     })
 
-    it('should gracefully exit an empty array', () => {
+    it('should handle empty case', () => {
         const result = stringArrayBubbleSort([], 'desc')
         expect(result).toStrictEqual([])
     })
