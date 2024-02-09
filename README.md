@@ -45,6 +45,14 @@ See [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Glob
            isMiddleChild = sorted[i] > bounds[0] && sorted[i] < bounds[1]
 -   [Group Indexes By Group Size They Belong To](./src/algorithms/medium/group-by-size.ts)
     1. See description on [Leetcode](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/description/)
+-   [Count the Number of Given Points that Fall Within the Area of Given Circles](./src/algorithms/medium/number-of-points-inside-circle.ts)
+    1. See description on [Leetcode](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/description/)
+            
+            Mental Model:
+            for query in queries
+                for point in points
+                    test fn of point in area of circle
+                    accumulate values
 
 
 ---
