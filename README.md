@@ -74,6 +74,11 @@ See [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Glob
             Nested sort (sort by internal value of each item)
     2. Impl 1: Sort with native method
     3. Impl 2: Sort with custom sorting algorithm (in this case bubble sort)
+-   [Max Increase to Keep City Skyline](./src/algorithms/medium/max-increase-to-keep-city-skyline.ts)
+    1. See description on [Leetcode](https://leetcode.com/problems/max-increase-to-keep-city-skyline/description/)
+
+            Mental Model:
+            new zd = Min(Max(xd), Max(yd))
 
 
 ---
