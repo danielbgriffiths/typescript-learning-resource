@@ -67,6 +67,13 @@ See [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Glob
             Create root node
             Split given array into left/right at max value
             recurse on either side of the split
+-   [Sort the Students by their Kth Score](./src/algorithms/medium/sort-matrix-rows-by-their-kth-value.ts)
+    1. See description on [Leetcode](https://leetcode.com/problems/sort-the-students-by-their-kth-score/description/)
+
+            Mental Model:
+            Nested sort (sort by internal value of each item)
+    2. Impl 1: Sort with native method
+    3. Impl 2: Sort with custom sorting algorithm (in this case bubble sort)
 
 
 ---
