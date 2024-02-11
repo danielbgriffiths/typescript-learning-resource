@@ -59,6 +59,14 @@ See [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Glob
             Mental Model:
             Iterate nums and build map of frequencies
             Iterate map and build matrix
+-   [Construct Maximum Binary Tree](./src/algorithms/medium/maximum-binary-tree.ts)
+    1. See description on [Leetcode](https://leetcode.com/problems/maximum-binary-tree/description/)
+
+            Mental Model:
+            Find max value
+            Create root node
+            Split given array into left/right at max value
+            recurse on either side of the split
 
 
 ---
