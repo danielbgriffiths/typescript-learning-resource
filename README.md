@@ -79,6 +79,13 @@ See [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Glob
 
             Mental Model:
             new zd = Min(Max(xd), Max(yd))
+-   [Subdomain Visit Count](./src/algorithms/medium/subdomain-visit-count.ts)
+    1. See description on [Leetcode](https://leetcode.com/problems/subdomain-visit-count/description/)
+
+            Mental Model:
+            for each domain, split by '.' and accumulate counts
+                Map<DomainPart, VisitCount>
+            return Map->string[]
 
 
 ---
