@@ -86,6 +86,15 @@ See [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Glob
             for each domain, split by '.' and accumulate counts
                 Map<DomainPart, VisitCount>
             return Map->string[]
+-   [Matrix Block sum](./src/algorithms/medium/matrix-block-sum.ts)
+    1. See description on [Leetcode](https://leetcode.com/problems/matrix-block-sum/description/)
+
+            Mental Model:
+            for i in rows
+                for j in cols
+                    for x in range(i - K, i + K)
+                        for y in range(j - K, j + K)
+                            accumulate sum
 
 
 ---
