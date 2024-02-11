@@ -53,6 +53,12 @@ See [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Glob
                 for point in points
                     test fn of point in area of circle
                     accumulate values
+-   [Convert Array to Matrix With Conditions](./src/algorithms/medium/convert-arr-to-matrix-with-conditions.ts)
+    1. See description on [Leetcode](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/description/)
+        
+            Mental Model:
+            Iterate nums and build map of frequencies
+            Iterate map and build matrix
 
 
 ---
