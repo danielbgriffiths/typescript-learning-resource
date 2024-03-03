@@ -42,7 +42,7 @@ export function subdomainVisitCount(countPartsDomains: string[]): string[] {
     }
 
     return Array.from(subdomainVisitCountMap).map(
-        ([visitCount, subdomainParts]) => `${visitCount} ${subdomainParts}`
+        ([subdomainParts, visitCount]) => `${visitCount} ${subdomainParts}`
     )
 }
 
