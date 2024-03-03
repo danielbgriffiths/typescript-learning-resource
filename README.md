@@ -97,24 +97,13 @@ See [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Glob
                             accumulate sum
 
 
----
+#### 2. Trees
 
-## Function Performance Evaluation
+-   [Count Nodes Equal to Average of Subtree](./src/algorithms/medium/count-nodes-eq-to-avg-of-sub-tree.ts)
+    1. See description on [Leetcode](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/description/)
 
-### 1. What is Space Complexity
-
-TODO
-
-### 2. What is Time Complexity
-
-TODO
-
----
-
-## Function Syntax Evaluation
-
-### 1. Typescript Usage and Practices
-
-TODO
-
----
+            We can use a recursive function to traverse the tree and calculate the sum of the left and right subtree.
+            By calling the recursions prior to calculating the sum and averages we can hoist the size and sum of the
+            subtrees up to the level of the parent node.
+            This allows us to calculate the average at each level without storing a map or array of values to
+            calculate the average post-pass.
